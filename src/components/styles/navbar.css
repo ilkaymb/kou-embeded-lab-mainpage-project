@@ -1,0 +1,72 @@
+a.nav-link:active,a.nav-link:hover,a.dropdown-item,a.nav-link:focus{
+    color:rgb(66, 133, 91);
+
+}
+a.nav-link{
+color:#34495E;
+    display: grid;
+    text-align:center;
+    font-size: 15px;;
+    font-family:'Segoe UI';
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+p.navbar-brand{
+    text-align:center;
+    font-size:24px;
+    font-family:'Segoe UI';
+    font-weight:bolder;
+    text-transform: uppercase;
+    color:rgb(66, 133, 91);
+    
+}
+div.NavBar{
+   background-color:#fff; 
+
+}
+
+p{
+    font-family:'Segoe UI';
+
+}
+
+.menu-custom-area{
+    font-family:'Segoe UI';
+font-size: 12px;
+
+}
+
+.dropdown-menu
+{
+    border-top: 2px solid rgb(66, 133, 91) !important;
+    border-radius: 0 !important;
+}
+
+.dropdown-item{
+        text-decoration:none !important;
+
+
+}
+
+#dark-mode-button{
+    border: 2px solid rgb(66, 133, 91) !important;
+    background-color:#fff; 
+    font-size: 15px;;
+    font-family:'Segoe UI';  
+      font-weight:bold;
+      color:#34495E;
+      margin-left: 25px;
+
+
+}
+
+#dark-mode-button:hover{
+    border: 2px solid rgb(66, 133, 91) !important;
+    background-color:black; 
+      color:rgb(66, 133, 91);
+}
+.dark{
+    background-color: #222;
+    color: #e6e6e6;
+}

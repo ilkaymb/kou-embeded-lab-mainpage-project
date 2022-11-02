@@ -1,0 +1,104 @@
+
+a.page-link {
+font-size: 20px;
+background-color: white  !important;
+border-radius: 100% !important;
+color: rgb(66, 133, 91) !important;
+text-align: center;
+border: 2px solid rgb(66, 133, 91) !important;
+margin: 0px 10px 0px 0px;
+
+}
+
+a.page-link:hover,a.page-link:active,a.page-link:focus {
+  background-color: rgb(66, 133, 91)  !important;
+
+  color: white !important;
+
+  border-color: white !important;
+  }
+
+  .pagination {
+border:0;
+  }
+
+#header{
+    font-family: 'Segoe UI';
+    font-size:bold;
+    text-transform: uppercase;
+}
+#pCard{
+        height:450px;
+
+}
+
+#pCard:hover {
+   transform: scale(1.025);
+  box-shadow: rgba(66, 133, 91, 0.5) 0px 5px 10px;
+}
+
+.containerr {
+
+  animation: expand .8s ease forwards;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  transition: all .8s ease;
+}
+
+
+
+.container_content_inner {
+
+  margin-left: 80px;
+}
+
+
+    
+
+
+.par {
+  overflow: hidden;
+}
+
+
+
+.btns {
+  overflow: hidden;
+}
+
+.btns_more {
+
+  outline: none;
+  transform: translateY(50px);
+  animation: slideUp .8s ease-in-out  forwards 1s;
+}
+
+
+
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(500px) scale(.2);
+  }
+  100% {
+    transform: translateX(0px) scale(1);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(300px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes expand {
+  0% {
+    transform: translateX(1400px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}

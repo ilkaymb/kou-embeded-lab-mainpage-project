@@ -1,0 +1,10 @@
+#teamInfo{
+   background-color:rgb(66, 133, 91);
+   border-radius:25px;
+}
+
+#teamInfo:hover{
+    transform: scale(1.025);
+    box-shadow: rgba(66, 133, 91, 0.5) 0px 5px 10px;
+ }
+
